@@ -1,0 +1,223 @@
+/**global style**/
+body {
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;  
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+figcaption {
+	color: #666;
+	margin: 10px 0;
+	font-size: 15px;
+
+} 
+
+figcaption span {
+	font-size: 12px;
+}
+
+.Sicon {
+	background: #e4e4e4;
+	border-radius: 50%;
+	padding: 6px 8px;
+}
+
+.logo {
+	width: 200px;
+}
+
+.postThumbnail,
+.theoryOfInflation--img, 
+.spiralImg {
+	width: 100%;
+}
+
+.recommendedArticle img,
+.editorsPickArticle img  {
+	width: 100%;
+}
+
+.btn {
+	background: #567b95;
+	color: #fff;
+	border: 1px solid #326891;
+	padding: 8px 15px;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.cetagory {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/**grid**/
+.wrapper {
+	width: 97%;
+	margin: 0 auto;
+}
+
+/*.article {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+*/
+
+/**header**/
+.header {
+	display: flex;
+    background: #fff;
+    justify-content: space-between;
+    padding-top: 8px;
+    position: sticky;
+    top: 0;
+}
+
+.left {
+	width: 15%; 
+	display: flex;
+	justify-content: space-between;
+}
+
+/**main**/
+
+.main {
+	padding-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+}
+ 
+/**article**/
+.article {
+	grid-column: 2 / -2;
+}
+
+.article--header {
+	width: 70%;
+	margin: auto;
+}
+
+.grid--container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr; 
+}
+
+.article--title {
+	font-family: 'Courgette', cursive;
+	font-weight: normal;
+	font-size: 38px;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 20px;
+}
+
+.socialAndcomments {
+	margin: 20px;
+}
+
+figure {
+	grid-column: 1 / -1;
+}
+
+.content {
+	grid-column: 2 / -2;
+}
+
+.author {
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.date {
+	margin-bottom: 20px;
+}
+
+.text {
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+/**Spiral in the sky**/
+
+.spiralImg { 
+	width: 100%;
+}
+
+/**the theory of inflation**/
+.theoryOfInflation {
+	height: 100%;
+	margin-bottom: 100px;
+}
+
+.bold {
+	font-weight: bold;	
+}
+
+.description {
+	font-size: 15px;
+	margin-bottom: 180px;
+}
+
+.imgDescription {
+	display: grid;
+	grid-template-columns: repeat(4, 250px);
+	position: absolute;
+	top: 2040px;
+}
+
+/**moreArticles**/
+.moreArticles {
+	grid-column: 1 / -1;
+	width: 90%;
+	margin: auto;
+	display: grid;
+}
+
+/**recommended Articles and editor's pick**/
+.recommendedAndEditorspic {
+	grid-column: 1 / -4;	
+}
+
+/**most Popular**/
+.mostPopular {
+
+}
+
+.recommendedArticles,
+.editorsPic {
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	grid-gap: 20px;
+}
+
+.editorsPic--title, 
+.recommendedArticles--title {
+	grid-column: 1 / -1;
+}
+
+/**moreLinks**/
+.moreLinks {
+
+}
+
+/**moreLinks--header**/
+.moreLinks--header {
+}
+
+/**all-links_grid**/
+.all-links_grid {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+/**article**/
